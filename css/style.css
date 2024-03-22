@@ -189,7 +189,7 @@ li:hover {
     align-items: center;
 }
 
-.boldbutton {
+.shearchcity {
     font-weight: bold;
     display: flex;
     padding: 16px;
@@ -319,7 +319,10 @@ li:hover {
     background-color: var(--main-bg-color);
     border-radius: 20px;
     box-sizing: border-box;
-    padding: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    padding-top: 0px;
 }
 
 /****** Populaires ***********/
@@ -391,6 +394,7 @@ li:hover {
 }
 
 
+
 .allactivity {
     display: flex;
     border-radius: 20px;
@@ -420,7 +424,7 @@ li:hover {
 }
 
 .titleactivity {
-    margin-left: 40px;
+    margin-left: 27px;
 }
 
 .botominfo {
@@ -571,17 +575,16 @@ li:hover {
     }
 
     .allfilter {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
     }
 
     .iconfilter {
-        width: 46%;
-        height: 40%;
+        display: flex;
+        width: 80%;
+        height: 100%;
         box-sizing: border-box;
-        margin-left: 1px;
     }
 
     .textfiltera {
@@ -658,6 +661,7 @@ li:hover {
         display: flex;
         width: 100%;
         height: 100%;
+        justify-content: center;
     }
 
     .allcard {
@@ -710,7 +714,7 @@ li:hover {
     }
 
     .activity {
-        padding-top: 35px;
+        padding-top: 30%;
     }
 
     .navcontainer {
