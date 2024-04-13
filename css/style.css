@@ -13,7 +13,6 @@
 
 a:hover {
     cursor: pointer;
-    color: red;
 }
 
 .fa-solid {
@@ -423,14 +422,11 @@ li:hover {
     flex-direction: column;
     justify-content: space-between;
     background-color: white;
-}
-
-
-
-.all-activity {
     border-radius: 20px;
     box-shadow: -1px 2px 14px 0px rgba(0, 0, 0, 0.2);
 }
+
+
 
 .flex-activity {
     gap: 3%;
@@ -447,6 +443,8 @@ li:hover {
 .text-activity {
     margin-left: 19px;
     border-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .title-activity {
@@ -466,10 +464,6 @@ li:hover {
     justify-items: flex-start;
 }
 
-.text-activity {
-    font-size: 16px;
-    font-weight: bold;
-}
 
 .more-info {
     margin-right: 18%;
