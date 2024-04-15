@@ -138,7 +138,7 @@ li:hover {
     font-weight: bold;
 }
 
-.sub-title {
+.subtitle {
     width: 100%;
     height: 19px;
 }
@@ -207,7 +207,7 @@ li:hover {
     align-items: center;
 }
 
-.List-filter {
+.list-filter {
     display: flex;
     flex-direction: row;
     margin-right: 15px;
@@ -294,7 +294,7 @@ li:hover {
     font-size: 22px;
 }
 
-.hotel-1 {
+.hotel {
     width: 250.33px;
     height: 120px;
     border: 5px;
@@ -456,7 +456,7 @@ li:hover {
     justify-content: space-between;
 }
 
-.botom-footer {
+.bottom-footer {
     display: flex;
     flex-direction: row;
     background-color: var(--main-bg-color);
@@ -714,12 +714,12 @@ li:hover {
         flex-direction: column;
     }
 
-    .hotel-1 {
+    .hotel {
         display: flex;
         width: 306px;
     }
 
-    .botom-footer {
+    .bottom-footer {
         display: flex;
         flex-direction: column;
 
