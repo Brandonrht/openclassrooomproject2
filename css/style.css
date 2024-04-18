@@ -461,13 +461,14 @@ li:hover {
     flex-direction: row;
     background-color: var(--main-bg-color);
     margin-top: 35px;
-    justify-items: flex-start;
 }
 
 
 .more-info {
-    margin-right: 18%;
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding-left: 20px;
 }
 
 .text-filtera {
