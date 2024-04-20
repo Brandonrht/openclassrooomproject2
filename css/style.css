@@ -747,23 +747,48 @@ li:hover {
         width: auto;
     }
 
+    .popularactivity{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .activity{
+        display: flex;
+        flex-direction: column;
+    }
+
     .flex-activity {
         display: flex;
         justify-content: center;
         flex-direction: column;
+        width: 100%;
         flex-wrap: nowrap;
+        
     }
 
     .activity-content {
         display: flex;
-        flex-wrap: wrap;
         padding-top: 20px;
         justify-content: center;
+        width: 100%;
 
     }
 
+    .card-activity{
+        display: flex;
+        width: 100%;
+    }
+
     .activity-image {
-        height: 140px;
+        display: flex;
+        width: 100%;
+        height: 192px;
+    }
+
+    .all-activity{
+        flex-wrap: nowrap;
+        width: 100%;
     }
 
     .text-main {
@@ -775,9 +800,6 @@ li:hover {
 
     }
 
-    .activity {
-        padding-top: 30%;
-    }
 
     .navcontainer {
         gap: 50px;
