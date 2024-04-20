@@ -219,6 +219,7 @@ li:hover {
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding-left: 20px;
 }
 
 .icon-filter {
@@ -409,7 +410,6 @@ li:hover {
 /* liste des activité */
 
 .activity-content {
-    display: flex;
     border: 20px;
     justify-content: space-around;
 }
@@ -536,9 +536,18 @@ li:hover {
 
     .activity-image {
         width: 100%;
-        height: 100%;
+        height: 200px;
     }
 
+    .text-activity {
+        margin: 0%;
+        padding-bottom: 21px;
+    }
+
+    .card-activity {
+        display: flex;
+        height: 270px;
+    }
 
     .more-info {
         margin-right: 18%;
@@ -558,7 +567,6 @@ li:hover {
 
     .flex-activity {
         display: flex;
-        height: 270px;
         justify-content: space-between;
         gap: 2%;
     }
@@ -747,13 +755,13 @@ li:hover {
         width: auto;
     }
 
-    .popularactivity{
+    .popularactivity {
         display: flex;
         width: 100%;
         flex-direction: column;
     }
 
-    .activity{
+    .activity {
         display: flex;
         flex-direction: column;
     }
@@ -762,20 +770,17 @@ li:hover {
         display: flex;
         justify-content: center;
         flex-direction: column;
-        width: 100%;
-        flex-wrap: nowrap;
-        
+        padding: 20px;
+
     }
 
     .activity-content {
-        display: flex;
         padding-top: 20px;
-        justify-content: center;
         width: 100%;
 
     }
 
-    .card-activity{
+    .card-activity {
         display: flex;
         width: 100%;
     }
@@ -786,7 +791,7 @@ li:hover {
         height: 192px;
     }
 
-    .all-activity{
+    .all-activity {
         flex-wrap: nowrap;
         width: 100%;
     }
