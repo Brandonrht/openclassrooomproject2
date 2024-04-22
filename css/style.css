@@ -237,9 +237,6 @@ li:hover {
     font-weight: bold;
 }
 
-.card-title1 {
-    font-weight: bold;
-}
 
 .fa-money-bill-wave {
     margin-right: 10px;
@@ -307,10 +304,11 @@ li:hover {
     width: 33%;
 }
 
-.card-title1 {
+.card-title-a {
     margin-top: 10px;
     margin-bottom: 4px;
     margin-left: 15px;
+    font-weight: bold;
 }
 
 .card-subtitle-a {
@@ -398,7 +396,7 @@ li:hover {
     margin-bottom: 5px;
 }
 
-.card-rating1 {
+.card-rating-a {
     margin-left: 15px;
     margin-bottom: 15px;
 }
@@ -631,7 +629,7 @@ li:hover {
         width: 100%;
         justify-content: center;
         gap: 50px;
-        
+
     }
 
 
