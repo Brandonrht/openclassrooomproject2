@@ -57,7 +57,6 @@ a {
 .hotel-list {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     gap: 15px;
     padding-top: 20px;
 }
@@ -296,7 +295,7 @@ li:hover {
 }
 
 .hotel {
-    width: 250.33px;
+    width: 100%;
     height: 120px;
     border: 5px;
     border-top-left-radius: 20px;
@@ -304,6 +303,9 @@ li:hover {
     object-fit: cover;
 }
 
+.hotel-list a {
+    width: 33%;
+}
 
 .card-title1 {
     margin-top: 10px;
@@ -411,7 +413,7 @@ li:hover {
 
 .activity-content {
     border: 20px;
-    justify-content: space-around;
+    width: 25%;
 }
 
 
@@ -424,9 +426,14 @@ li:hover {
     background-color: white;
     border-radius: 20px;
     box-shadow: -1px 2px 14px 0px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 100%;
 }
 
-
+.card-activity {
+    display: flex;
+    height: 439px;
+}
 
 .flex-activity {
     gap: 3%;
@@ -435,7 +442,7 @@ li:hover {
 .activity-image {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    width: 297px;
+    width: 100%;
     height: 380px;
     object-fit: cover;
 }
@@ -446,6 +453,7 @@ li:hover {
     font-size: 16px;
     font-weight: bold;
 }
+
 
 .title-activity {
     margin-left: 27px;
@@ -463,6 +471,10 @@ li:hover {
     margin-top: 35px;
 }
 
+.popularactivity {
+    display: flex;
+    flex-direction: column;
+}
 
 .more-info {
     display: flex;
@@ -482,9 +494,10 @@ li:hover {
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (min-width: 768px) and (max-width: 1024px) {
 
-    .main-container{
+    .main-container {
         padding: 0 30px;
     }
+
     .List-filter {
         display: block;
     }
@@ -494,27 +507,33 @@ li:hover {
         flex-wrap: nowrap;
         justify-content: space-between;
     }
-    .accommodationtitle{
+
+    .accommodationtitle {
         display: flex;
     }
-    .all-card{
+
+    .all-card {
         flex-wrap: nowrap;
     }
-    .all-content{
+
+    .all-content {
         display: flex;
         flex-direction: column;
     }
+
     .accommodations {
         width: 100%;
         padding: 30px;
     }
-    .hotel-list a{
+
+    .hotel-list a {
         width: 33%;
     }
+
     .hotel {
         width: 100%;
     }
-    
+
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -568,7 +587,7 @@ li:hover {
         height: 270px;
     }
 
-    
+
     .activity-content {
         width: 25%;
     }
@@ -736,6 +755,10 @@ li:hover {
         padding-top: 5%;
     }
 
+    .hotel-list a {
+        width: 100%;
+    }
+
     .card-1 {
         display: flex;
         width: 100%;
@@ -762,6 +785,7 @@ li:hover {
     .bottom-footer {
         display: flex;
         flex-direction: column;
+        margin-top: 0%;
 
     }
 
@@ -774,6 +798,7 @@ li:hover {
         display: flex;
         width: 100%;
         flex-direction: column;
+        padding-bottom: 20px;
     }
 
     .activity {
@@ -786,7 +811,14 @@ li:hover {
         justify-content: center;
         flex-direction: column;
         padding: 20px;
+    }
 
+    .flex-activity {
+        gap: 0%;
+    }
+
+    .card-activity {
+        height: 100%;
     }
 
     .activity-content {
