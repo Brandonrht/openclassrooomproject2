@@ -482,22 +482,39 @@ li:hover {
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (min-width: 768px) and (max-width: 1024px) {
 
+    .main-container{
+        padding: 0 30px;
+    }
     .List-filter {
         display: block;
     }
 
     .hotel-list {
         display: flex;
-        width: 100%;
-        height: 100%;
-        gap: 30px;
+        flex-wrap: nowrap;
+        justify-content: space-between;
     }
-
+    .accommodationtitle{
+        display: flex;
+    }
+    .all-card{
+        flex-wrap: nowrap;
+    }
+    .all-content{
+        display: flex;
+        flex-direction: column;
+    }
     .accommodations {
         width: 100%;
         padding: 30px;
     }
-
+    .hotel-list a{
+        width: 33%;
+    }
+    .hotel {
+        width: 100%;
+    }
+    
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -541,7 +558,9 @@ li:hover {
 
     .text-activity {
         margin: 0%;
-        padding-bottom: 21px;
+        padding-bottom: 26px;
+        padding-left: 20px;
+        padding-right: 5px;
     }
 
     .card-activity {
@@ -549,12 +568,8 @@ li:hover {
         height: 270px;
     }
 
-    .more-info {
-        margin-right: 18%;
-    }
-
+    
     .activity-content {
-        display: flex;
         width: 25%;
     }
 
@@ -718,7 +733,7 @@ li:hover {
         justify-content: center;
         flex-wrap: nowrap;
         flex-direction: column;
-        padding-top: 0%;
+        padding-top: 5%;
     }
 
     .card-1 {
